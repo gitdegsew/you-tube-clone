@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+}
+html
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+    height: 100vh;
+    background-color: black;
+    
+}
+#some::-webkit-scrollbar {
+    display: none;
+  }
+
+  #some {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+*:focus {
+    outline: none;
+}
